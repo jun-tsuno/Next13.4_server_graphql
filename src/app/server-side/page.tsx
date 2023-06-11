@@ -2,6 +2,9 @@ import React from 'react';
 import { gql } from '@apollo/client';
 import { getClient } from '@/lib/client';
 
+// reference
+// https:codevoweb.com/setup-and-use-apollo-client-in-nextjs-13-app-directory/
+
 // page always displays the latest data
 export const dynamic = 'force-dynamic';
 
